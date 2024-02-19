@@ -1,0 +1,17 @@
+<div class="container">
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
+    <div class="container">
+        <div class="nav-item d-flex justify-content-between align-items-center">
+          <h2 routerLink="/home"> AngularFlix </h2>
+        </div>
+        <div class="d-flex">
+            
+            <a routerLink="/login" class="me-3"><i class="bi bi-door-open-fill" title="Giriş Yap" style="color: black;"></i></a>
+            <a routerLink="/register" class="me-3"><i class="bi bi-card-checklist" title="Kayıt Ol" style="color: black;"></i></a>
+        </div>
+    </div>   
+</nav>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+</div>

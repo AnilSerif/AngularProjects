@@ -1,0 +1,93 @@
+@if(!showAlternateContent){
+
+  <div class="container bg-body-tertiary mt-3 p-3">
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center;">
+      <div
+        class="col-md-4 mb-3"
+        style="flex: 1"
+        *ngFor="let membership of memberships()"
+      >
+        <div
+          class="card"
+          style="width: 18rem; display: flex; flex-direction: column; margin: 0 auto;"
+        >
+          <div class="card-header text-center">
+            {{ membership.name }}
+          </div>
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">{{ membership.description }}</li>
+            <li class="list-group-item">{{ membership.price }}</li>
+            <li class="list-group-item">{{ membership.options }}</li>
+          </ul>
+  
+          <div class="card-footer col text-center">
+            <button class="btn-primary btn" (click)="toggleContent()">Seçiniz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}@else if(showAlternateContent){
+  @defer (on timer(3000)) {
+    <div class="container bg-body-tertiary mt-3 p-3">
+      <div class="row justify-content-center">
+        <div class="col-md-4 d-flex align-items-center text-center">
+          <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mmZi0tyPFfbcCqEsJIPxVldCPOL.jpg" alt="Rastgele Fotoğraf" class="img-fluid" style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+        </div>
+    
+        <div class="col-md-4">
+          <form [formGroup]="userAddForm" (ngSubmit)="add()" class="form-group">
+            <p class="text-center text-bold">Kayıt Masası</p>
+            <div class="mb-3">
+              <div class="form-label text-center">Adınız:</div>
+              <input type="text" formControlName="name" placeholder="Adınız..." class="form-control w-100">
+              <div class="alert alert-danger" *ngIf="userAddForm.get('name').hasError('required') && userAddForm.get('name').touched">Ad kısmı boş geçilemez!</div>
+            </div>
+    
+            <div class="mb-3">
+              <div class="form-label text-center">Soyadınız:</div>
+              <input type="text" formControlName="surname" placeholder="Soyadınız..." class="form-control w-100">
+              <div class="alert alert-danger" *ngIf="userAddForm.get('surname').hasError('required') && userAddForm.get('surname').touched">Soyadı kısmı boş geçilemez!</div>
+            </div>
+    
+            <div class="mb-3">
+              <div class="form-label text-center">E-mail:</div>
+              <input type="email" formControlName="email" placeholder="Email..." class="form-control w-100">
+              <div class="alert alert-danger" *ngIf="userAddForm.get('email').hasError('required') && userAddForm.get('email').touched">Email kısmı boş geçilemez</div>
+            </div>
+    
+            <div class="row">
+              <div class="col-6">
+                <div class="form-label text-center">Kart Numaranız:</div>
+                <input type="number" formControlName="cardnumber" placeholder="Kart Numaranız..." class="form-control w-100">
+                <div class="alert alert-danger" *ngIf="userAddForm.get('cardnumber').hasError('required') && userAddForm.get('cardnumber').touched"> Kart numarası kısmı boş geçilemez...</div>
+                <div class="alert alert-danger" *ngIf="userAddForm.get('cardnumber').hasError('maxlength') && userAddForm.get('cardnumber').touched"> Kart numarası en az 11 haneli olmalıdır...</div>
+              </div>
+    
+              <div class="col-6">
+                <div class="form-label text-center">CCV:</div>
+                <input type="number" formControlName="ccv" placeholder="CCV" class="form-control w-100">
+                <div class="alert alert-danger" *ngIf="userAddForm.get('ccv').hasError('required') && userAddForm.get('ccv').touched"> CCV kısmı boş geçilemez...</div>
+                <div class="alert alert-warning" *ngIf="userAddForm.get('ccv').hasError('minlength') && userAddForm.get('cardnumber').touched"> 3 Haneli CCV kısmını giriniz... </div>
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <div class="form-label text-center">Parola: </div>
+              <input type="password" class="form-control w-100"  formControlName="password" placeholder="Parola">
+              <div class="alert alert-danger" *ngIf="userAddForm.get('password').hasError('required') && userAddForm.get('password').touched">Parola kısmı eksik bırakılamaz...</div>
+              <div class="alert alert-warning" *ngIf="userAddForm.get('password').hasError('maxlength') && userAddForm.get('password').touched"> Eksik giriş yaptınız...</div>
+            </div>
+    
+            <button class="btn btn-primary w-100 mt-3" [disabled]="userAddForm.invalid">Kayıt Ol</button>
+          </form>
+        </div>
+    
+        <div class="col-md-4 d-flex align-items-center text-center">
+          <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mmZi0tyPFfbcCqEsJIPxVldCPOL.jpg" alt="Rastgele Fotoğraf" class="img-fluid" style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+        </div>
+      </div>
+    </div>
+    
+  }@placeholder {Biraz Bekleteceğim....}
+}

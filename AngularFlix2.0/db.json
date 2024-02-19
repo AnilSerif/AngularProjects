@@ -1,0 +1,109 @@
+{
+   "membershipPackages": [
+          {
+            "id": 1,
+            "name": "Temel Paket",
+            "price": "Aylık 99.99 TL",
+            "description": "AngularFlix'in temel paketinde kullanıcılar aynı anda 1 ekrandan AngularFlix'i izleyebiliyor; desteklenen 1 cihaza aynı anda içerik indirebiliyor.",
+            "options": "Toplam 2 cihaz desteklenir."
+          },
+          {
+            "id": 2,
+            "name": "Standart Paket",
+            "price": "Aylık 149.99 TL",
+            "description": "Bu pakette aynı anda, desteklenen 2 cihazda AngularFlix izlenebiliyor. İçerik indirilebilen cihaz sayısı 2'ye çıkıyor. Bu pakette tam HD kalitesi sunuluyor.",
+            "options": "Toplam 4 cihaz desteklenir."
+          },
+          {
+            "id": 3,
+            "name": "Özel Paket",
+            "price": "199.99 TL",
+            "description": "En üst pakette aynı anda izlenebilen ekran sayısı dörde çıkıyor. İçerik indirilebilen cihaz sayısı da 4'e yükseliyor. Kullanıcılara ultra HD kalitesi sunuluyor.",
+            "options": "Toplam 8 cihaz desteklenir."
+          }
+        ],
+        "users": [
+          {
+            "id": 1,
+            "name": "Deneme",
+            "surname": "Denemeoğlu",
+            "email": "deneme@gmail.com",
+            "cardNumber": 1111111111,
+            "ccv": 222,
+            "password": "deneme1234"
+          },
+          {
+            "id": 2,
+            "name": "Ali",
+            "surname": "Veli",
+            "email": "aliveli@gmail.com",
+            "cardNumber": 11111111111,
+            "ccv": 123,
+            "password": "aliveliali"
+          }
+        ],
+        "headers": [
+          {
+            "id": 1,
+            "name": "Reacher",
+            "platform": "AngularFlix'e dahil",
+            "status": "Yeni sezon için tıklayınız.",
+            "rating": 16,
+            "img": "https://media.npr.org/assets/img/2023/12/15/reacher---reachers-back_custom-543b2b57ebefe7c4021005dfcd81b581479bdcc2-s900-c85.webp"
+          }
+        ],
+        "moviesData": [
+          {
+            "id": 1,
+            "name": "Saltburn",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
+            "order": 1
+          },
+          {
+            "id": 2,
+            "name": "Oppenheimer",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mmZi0tyPFfbcCqEsJIPxVldCPOL.jpg",
+            "order": 2
+          },
+          {
+            "id": 3,
+            "name": "Wonka",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lJxTX3c10qayNosNbIJ3hT6U2Qt.jpg",
+            "order": 3
+          },
+          {
+            "id": 4,
+            "name": "Dolunay Katilleri",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/armizOXVvetEa506WmzuJ21tRKt.jpg",
+            "order": 4
+          }
+        ],
+        "showsData": [
+          {
+            "id": 1,
+            "name": "For All Mankind",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg",
+            "order": 1
+          },
+          {
+            "id": 2,
+            "name": "Heels",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iTCoLeWL3CCCxFQsHYajysmX3Vi.jpg",
+            "order": 2
+          },
+          {
+            "id": 3,
+            "name": "Invincible",
+            "img": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg",
+            "order": 3
+        }
+    ]
+}
+      
+    
+
+
+
+
+
+
