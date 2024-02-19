@@ -3,7 +3,7 @@ It's an angular project that I made small changes on my own.
 
 ## Updates
 - I updated the db.json fake API, which includes the newly created parts and the ones present in the old version, and renamed it to AngularFlix.json in AngularFlix project.
-- The white background present in the old versions has been changed.
+- The white background present in the old versions has been changed. You can make request operations with the help of Postman.
 - Used the following technologies and libraries:
   - Bootstrap
   - Bootstrap.Icon
