@@ -1,5 +1,3 @@
-# AngularFlix3.0
-
 # AngularFlix
 It's an angular project that I made small changes on my own.
 
