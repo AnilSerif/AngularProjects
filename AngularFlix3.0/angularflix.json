@@ -1,0 +1,556 @@
+{
+  "Movies": [
+    {
+      "MovieId": 1,
+      "MovieName": "Wonka",
+      "Year": 2023,
+      "RunTime": "1s 57dk",
+      "genres": [
+        "Aile",
+        "Komedi",
+        "Müzikal",
+        "Fantazi"
+      ],
+      "Studios": "Warner Bros. Pictures",
+      "Director": "Paul King",
+      "Writers": "Paul King",
+      "Summary": "Bu dünyadaki her iyi şey bir hayalle başladı.",
+      "Description": "Fikirlerle dolu ve dünyayı her seferinde nefis bir ısırıkla değiştirmeye kararlı Willy Wonka, hayattaki en iyi şeylerin bir hayalle başladığının kanıtıdır ve Willy Wonka ile tanışacak kadar şanslıysanız, her şey mümkündür.",
+      "Poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lJxTX3c10qayNosNbIJ3hT6U2Qt.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Timothée Chalamet",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/BE2sdjpgsa2rNTFa66f7upkaOP.jpg",
+          "role": "Willy Wonka"
+        },
+        {
+          "id": 2,
+          "ActorName": "Calah Lane",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rhEcrfvtkIuzjOvt010xHiVHWXY.jpg",
+          "role": "Noodle"
+        },
+        {
+          "id": 3,
+          "ActorName": "Keegan-Michael Key",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lOkSxsLHHr8DqaE6NylUxwwJZvz.jpg",
+          "role": "Chief of Police"
+        },
+        {
+          "id": 4,
+          "ActorName": "Hugh Grant",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tUHkXYdwm405DjBm2IpPxGjYkjj.jpg",
+          "role": "Oompa-Loompa / Lofty"
+        },
+        {
+          "id": 5,
+          "ActorName": "Paterson Joseph",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/n8kf0aowLTcPSt72k0eC4ZShe3s.jpg",
+          "role": "Arthur Slugworth"
+        }
+      ]
+    },
+    {
+      "MovieId": 2,
+      "MovieName": "The Marvels",
+      "Year": 2023,
+      "RunTime": "1s 45dk",
+      "genres": [
+        "Süper Kahraman",
+        "Aksiyon",
+        "Macera",
+        "Bilim Kurgu"
+      ],
+      "Studios": "Marvel Studios",
+      "Director": "Nia DaCosta",
+      "Writers": "Megan McDonnel",
+      "Summary": "Daha yüksek. Daha ileri. Daha hızlı. Birlikte.",
+      "Description": "Carol Danvers, nam-ı diğer Kaptan Marvel, kimliğini zalim Kree'lerden geri almış ve Yüce Zekâ'dan intikamını almıştır. Ancak istenmeyen sonuçlar Carol'ın istikrarsızlaştırılmış bir evrenin yükünü omuzladığını görür. Görevleri onu bir Kree devrimcisiyle bağlantılı anormal bir solucan deliğine gönderdiğinde, güçleri Jersey City'nin süper hayranı Kamala Khan, nam-ı diğer Bayan Marvel ve Carol'ın yabancılaşmış yeğeni, şimdi S.A.B.E.R. astronotu olan Kaptan Monica Rambeau ile karışır. Bu beklenmedik üçlü bir araya gelmeli ve evreni kurtarmak için uyum içinde çalışmayı öğrenmelidir.",
+      "Poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/l4ffTnCpcVgjF6TeKMtOIKTRdxG.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Brie Larson",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg",
+          "role": "Carol Danvers / Captain Marvel"
+        },
+        {
+          "id": 2,
+          "ActorName": "Teyonah Parris",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k3U24YNgdaINZEQ4PftebnN5cpU.jpg",
+          "role": "Monica Rambeau"
+        },
+        {
+          "id": 3,
+          "ActorName": "Iman Vellani",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k69oVZRqkNX8PgKqCvkXkYwnhz5.jpg",
+          "role": "Kamala Khan / Ms. Marvel"
+        },
+        {
+          "id": 4,
+          "ActorName": "Zawe Ashton",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/zbxVfvhPhCfgpgmWTdtHWurNqYu.jpg",
+          "role": "Dar-Benn"
+        },
+        {
+          "id": 5,
+          "ActorName": "Samuel L. Jackson",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg",
+          "role": "Nick Furry"
+        }
+      ]
+    },
+    {
+      "MovieId": 3,
+      "MovieName": "Napoleon",
+      "Year": 2023,
+      "RunTime": "2s 38dk",
+      "genres": [
+        "Tarih",
+        "Dram",
+        "Savaş"
+      ],
+      "Studios": "Scott Free Productions",
+      "Director": "Ridley Scott",
+      "Writers": "David Scarpa",
+      "Summary": "Hiçlikten geldi. Her şeyi fethetti.",
+      "Description": "Fransız İmparatoru Napolyon Bonapart'ın şaibeli yükselişini ve düşüşünü, karısı Josephine ile olan bağımlılık yaratan, değişken ilişkisinin prizması aracılığıyla iktidara olan amansız yolculuğunu anlatan bir destan.",
+      "Poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jE5o7y9K6pZtWNNMEw3IdpHuncR.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Joaquin Phoenix",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/dD7hrRueEZmQgGWBp7pAOOt5gLV.jpg",
+          "role": "Napoleon Bonaparte"
+        },
+        {
+          "id": 2,
+          "ActorName": "Vanessa Kirby",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/a8a9U00KL2JJkkekzhNnueIGKKF.jpg",
+          "role": "Josephine Bonaparte"
+        },
+        {
+          "id": 3,
+          "ActorName": "Rupert Everett",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gMru0XxXaceTyoZcQQfgUk7QiXC.jpg",
+          "role": "Duke of Wellington"
+        },
+        {
+          "id": 4,
+          "ActorName": "Mark Bonnar",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qEOp1lj0HGAVy1wpqIxMNkxIzn7.jpg",
+          "role": "Junot"
+        },
+        {
+          "id": 5,
+          "ActorName": "Paul Rhys",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/l7uc38oZGMQbbq7WqE8rKn9xZJr.jpg",
+          "role": "Talleyrand"
+        }
+      ]
+    },
+    {
+      "MovieId": 4,
+      "MovieName": "Oppenheimer",
+      "Year": 2023,
+      "RunTime": "3s 1dk",
+      "genres": [
+        "Tarih",
+        "Dram"
+      ],
+      "Studios": "Universal Pictures",
+      "Director": "Christopher Nolan",
+      "Writers": "Christopher Nolan",
+      "Summary": "Dünya sonsuza dek değişir.",
+      "Description": "J. Robert Oppenheimer'ın İkinci Dünya Savaşı sırasında atom bombasının geliştirilmesindeki rolünün öyküsü.",
+      "Poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Cillian Murphy",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg",
+          "role": "J.Robbert Oppenheimer"
+        },
+        {
+          "id": 2,
+          "ActorName": "Emily Blunt",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xDc01ud6ZtaJFQWg8YfffFlUBdY.jpg",
+          "role": "Kitty Oppenheimer"
+        },
+        {
+          "id": 3,
+          "ActorName": "Matt Damon",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg",
+          "role": "Leslie Groves"
+        },
+        {
+          "id": 4,
+          "ActorName": "Robert Downey Jr.",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg",
+          "role": "Lewis Strauss"
+        },
+        {
+          "id": 5,
+          "ActorName": "Florence Pugh",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4VghWSpWzH3z2PuJVSKUUZ9thFE.jpg",
+          "role": "Jean Tatlock"
+        }
+      ]
+    },
+    {
+      "MovieId": 5,
+      "MovieName": "Killers of the Flower Moon",
+      "Year": 2023,
+      "RunTime": "3h 26m",
+      "genres": [
+        "Suç",
+        "Dram",
+        "Tarih"
+      ],
+      "Studios": "Imperative Entertainment",
+      "Director": "Martin Scorsese",
+      "Writers": "Eric Roth",
+      "Summary": "Açgözlülük kana susamış bir hayvandır.",
+      "Description": "1920'lerin Oklahoma'sında Osage Ulusu topraklarında petrol bulununca Osage halkı teker teker öldürülür; ta ki FBI gizemi çözmek için devreye girene kadar.",
+      "Poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Leonardo DiCaprio",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5Brc5dLifH3UInk3wUaCuGXpCqy.jpg",
+          "role": "Ernest Burkhart"
+        },
+        {
+          "id": 2,
+          "ActorName": "Robert De Niro",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg",
+          "role": "William Hale"
+        },
+        {
+          "id": 3,
+          "ActorName": "Lily Gladstone",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/suxRbQOSlPKMXZpgNCcc3UtW9DT.jpg",
+          "role": "Mollie Burkhart"
+        },
+        {
+          "id": 4,
+          "ActorName": "Jesse Plemons",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bXkAPGVnf4j8fbCZ7DrWGkYOc5S.jpg",
+          "role": "Tom White"
+        },
+        {
+          "id": 5,
+          "ActorName": "Tantoo Cardinal",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rxhjfygJlPwztf36iRI7UDn5dr7.jpg",
+          "role": "Lizzie Q"
+        }
+      ]
+    }
+  ],
+  "Shows": [
+    {
+      "ShowId": 1,
+      "ShowName": "Reacher",
+      "Year": 2022,
+      "Status": "Sezon Finali Yaptı.",
+      "RunTime": "49dk",
+      "TotalRunTime": "12s 50dk",
+      "genres": [
+        "Aksiyon",
+        "Macera",
+        "Suç",
+        "Dram"
+      ],
+      "Studios": "Amazon Studios",
+      "Creator": "Nick Santora",
+      "Summary": "Reacher geri döndü.",
+      "Description": "Emekli bir askeri polis müfettişi olan Jack Reacher, sivil hayata yeni adım atmıştır. Reacher, ülkeyi gezerken ve bir zamanlar hizmet ettiği ulusu keşfederken yanında telefonu olmayan ve en temel ihtiyaçlarını karşılayan bir serseridir.",
+      "ShowPoster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/N9Hv6Z6zOSIf17T82LmdAy40br.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Alan Ritchson",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wdmLUSPEC7dXuqnjTM4NgbjvTKk.jpg",
+          "role": "Jack Reacher"
+        },
+        {
+          "id": 2,
+          "ActorName": "Maria Sten",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg",
+          "role": "Frances Neagley"
+        },
+        {
+          "id": 3,
+          "ActorName": "Serinda Swan",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/mA4qtNZnn0A2oT1s4IIHseO8oiu.jpg",
+          "role": "Karla Dixon"
+        },
+        {
+          "id": 4,
+          "ActorName": "Shaun Sipos",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vXsKlHCCwwipQJoklvJisSVj6Fc.jpg",
+          "role": "David O'Donnell"
+        },
+        {
+          "id": 5,
+          "ActorName": "Ferdinand Kingsley",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/arGWhGhfBl8CvNuUoKkUmfrDG0b.jpg",
+          "role": "A.M"
+        }
+      ]
+    },
+    {
+      "ShowId": 2,
+      "ShowName": "ted",
+      "Year": 2024,
+      "Status": "Final Yaptı.",
+      "RunTime": "42dk",
+      "TotalRunTime": "4s 48dk",
+      "genres": [
+        "Komedi"
+      ],
+      "Studios": "Media Rights Capital",
+      "Creator": "Seth MacFarlane",
+      "Summary": "Her şeyin yanlış gittiği yere geri dönüyoruz.",
+      "Description": "Yıl 1993'tür ve Ayı Ted'in şöhret dönemi sona ermiş, en yakın arkadaşı 16 yaşındaki John Bennett, Boston'da işçi sınıfına ait bir evde ailesi ve kuzeniyle birlikte yaşamaktadır. Ted, John üzerinde pek iyi bir etki bırakmasa da, iş başa düştüğünde arkadaşına ve ailesine yardım etmek için her şeyi göze almaya hazırdır.",
+      "ShowPoster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Seth MacFarlane",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+          "role": "Ted"
+        },
+        {
+          "id": 2,
+          "ActorName": "Max Burkholder",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8uNNDZPSxLsNetHPl1zxMwKULTC.jpg",
+          "role": "John Bennett"
+        },
+        {
+          "id": 3,
+          "ActorName": "Alana Ubach",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/p2sIpgftEIkhPrrpgu8wW8XEpDg.jpg",
+          "role": "Susan Bennett"
+        },
+        {
+          "id": 4,
+          "ActorName": "Scott Grimes",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oB0xperEt45g8Ti6lpObpi6c5XV.jpg",
+          "role": "Matty Bennett"
+        },
+        {
+          "id": 5,
+          "ActorName": "Giorgia Whigham ",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ydttfiEEn3j0RfGRa35YuI9KEn6.jpg",
+          "role": "Blaire Bennett"
+        }
+      ]
+    },
+    {
+      "ShowId": 3,
+      "ShowName": "The Bear",
+      "Year": 2022,
+      "Status": "Sezon Finali Yaptı.",
+      "RunTime": "42dk",
+      "TotalRunTime": "10s 6dk",
+      "genres": [
+        "Dram",
+        "Komedi"
+      ],
+      "Studios": "FX Productions",
+      "Creator": "Christopher Storer",
+      "Summary": "Geri dönüş.",
+      "Description": "Genç bir fine-dining şefi olan Carmy, ailesinin sandviç dükkânını işletmek için Chicago'daki evine gelir. Dükkânı ve kendisini dönüştürmek için mücadele ederken, sonunda kendilerini seçilmiş ailesi olarak gösteren kaba saba bir ekiple birlikte çalışır.",
+      "ShowPoster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3MVHF64rlvH1eofKefIoazXwOK0.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Jeremy Allen White",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/zKk4vmDeUexdevtt6wm8WdMQ1TG.jpg",
+          "role": "Carmen 'Carmy' Berzatto"
+        },
+        {
+          "id": 2,
+          "ActorName": "Ebon Moss-Bachrach",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6KoDVt7USiQf0PnwvhBnutu1hzA.jpg",
+          "role": "Richard 'Richie2 Jerimovich"
+        },
+        {
+          "id": 3,
+          "ActorName": "Ayo Edebiri",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/V9TNVjNkAJIiCHLTzcnHLktnPf.jpg",
+          "role": "Sydney Adamu"
+        },
+        {
+          "id": 4,
+          "ActorName": "Lionel Boyce",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg",
+          "role": "Marcus"
+        },
+        {
+          "id": 5,
+          "ActorName": "Abby Elliott",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/v7h08EsTce2pLHkZiaFe1QRuYbU.jpg",
+          "role": "Natalie 'Sugar' Berzatto"
+        }
+      ]
+    },
+    {
+      "ShowId": 4,
+      "ShowName": "Heels",
+      "Year": 2021,
+      "Status": "İptal Edildi.",
+      "RunTime": "1s",
+      "TotalRunTime": "15s 23dk",
+      "genres": [
+        "Dram",
+        "Aksiyon"
+      ],
+      "Studios": "Lionsgate Television",
+      "Creator": "Micheal Waldron",
+      "Summary": "Aile karşı karşıya gelecek.",
+      "Description": "Georgia'da birbirine sıkı sıkıya bağlı bir toplulukta, aileye ait bir güreş promosyonu, iki kardeşi ve rakiplerini merhum babalarının mirası için savaşırken bulur. Ringde birileri iyi adamı, birileri de onların düşmanı olan heel'i oynamak zorundadır. Ancak gerçek dünyada, bu karakterlere uymak zor olabilir (ve geride bırakmak da bir o kadar zor).",
+      "ShowPoster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iTCoLeWL3CCCxFQsHYajysmX3Vi.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Stephen Amell",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/cWbiif8Ett0PEj54sTjG9K70Drm.jpg",
+          "role": "Jack Spade"
+        },
+        {
+          "id": 2,
+          "ActorName": "Alexander ludwing",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/unP5YUgEdECL2gMLs0zCNya6is6.jpg",
+          "role": "Ace Spade"
+        },
+        {
+          "id": 3,
+          "ActorName": "Alison Luff",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tfLeKtNf4QQ1XvayQs9R7sNJX9R.jpg",
+          "role": "Staci Spade"
+        },
+        {
+          "id": 4,
+          "ActorName": "Mary McCormack",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kVVttyq0cuTvDE4l5wEBqgjCBnf.jpg",
+          "role": "Willie Day"
+        },
+        {
+          "id": 5,
+          "ActorName": "Kelli Berglund",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2Xz520XU0NPz3ZyNIpIIOeeDdaE.jpg",
+          "role": "Crystal Tyler"
+        }
+      ]
+    },
+    {
+      "ShowId": 5,
+      "ShowName": "Invincible",
+      "Year": 2021,
+      "Status": "Sezon Finali Yaptı.",
+      "RunTime": "45dk",
+      "TotalRunTime": "9s 45dk",
+      "genres": [
+        "Süper Kahraman",
+        "Animasyon",
+        "Aksiyon",
+        "Macera",
+        "Dram",
+        "Fantazi",
+        "Bilim Kurgu"
+      ],
+      "Studios": "Amazon Studios",
+      "Creator": "Robert Kirkman",
+      "Summary": "Neredeyse Oldu.",
+      "Description": "Mark Grayson, babasının gezegendeki en güçlü süper kahraman olması dışında normal bir gençtir. On yedinci doğum gününden kısa bir süre sonra Mark kendi güçlerini geliştirmeye başlar ve babasının himayesine girer.",
+      "ShowPoster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg",
+      "Actors": [
+        {
+          "id": 1,
+          "ActorName": "Steven Yeun",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5XU0L0drBa7JlGrLg2w3LhAgjG0.jpg",
+          "role": "Mark Grayson / Invincible"
+        },
+        {
+          "id": 2,
+          "ActorName": "Sandra Oh",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg",
+          "role": "Debbie Grayson"
+        },
+        {
+          "id": 3,
+          "ActorName": "J.K Simmons",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg",
+          "role": "Nolan Grayson / Omni-Man"
+        },
+        {
+          "id": 4,
+          "ActorName": "Zazie Beetz",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/sgxzT54GnvgeMnOZgpQQx9csAdd.jpg",
+          "role": "Amber Bennett"
+        },
+        {
+          "id": 5,
+          "ActorName": "Walton Goggins",
+          "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nPH7NL6wLUFJaXo5V3jBisgH84c.jpg",
+          "role": "Cecil Stedman"
+        }
+      ]
+    }
+  ],
+  "MemberShipPackages": [
+    {
+      "id": 1,
+      "name": "Temel Paket",
+      "price": "Aylık 99.99 TL",
+      "description": "AngularFlix'in temel paketinde kullanıcılar aynı anda 1 ekrandan AngularFlix'i izleyebiliyor; desteklenen 1 cihaza aynı anda içerik indirebiliyor.",
+      "options": "Toplam 2 cihaz desteklenir."
+    },
+    {
+      "id": 2,
+      "name": "Standart Paket",
+      "price": "Aylık 149.99 TL",
+      "description": "Bu pakette aynı anda, desteklenen 2 cihazda AngularFlix izlenebiliyor. İçerik indirilebilen cihaz sayısı 2'ye çıkıyor. Bu pakette tam HD kalitesi sunuluyor.",
+      "options": "Toplam 4 cihaz desteklenir."
+    },
+    {
+      "id": 3,
+      "name": "Özel Paket",
+      "price": "199.99 TL",
+      "description": "En üst pakette aynı anda izlenebilen ekran sayısı dörde çıkıyor. İçerik indirilebilen cihaz sayısı da 4'e yükseliyor. Kullanıcılara ultra HD kalitesi sunuluyor.",
+      "options": "Toplam 8 cihaz desteklenir."
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "name": "Deneme",
+      "surname": "Denemeoğlu",
+      "email": "deneme@gmail.com",
+      "cardNumber": 1111111111,
+      "ccv": 222,
+      "password": "deneme1234"
+    },
+    {
+      "name": "Ali",
+      "surname": "Veli",
+      "email": "aliveli@gmail.com",
+      "cardnumber": 11111111111,
+      "ccv": 123,
+      "password": "aliveli",
+      "id": 2
+    }
+  ],
+  "headers": [
+    {
+      "id": 1,
+      "name": "Reacher",
+      "platform": "AngularFlix'e dahil",
+      "status": "Yeni sezon için tıklayınız.",
+      "rating": 16,
+      "img": "https://scontent.fteq3-3.fna.fbcdn.net/v/t39.30808-6/411873177_380582087834170_9036612211744256000_n.jpg?stp=dst-jpg_s960x960&_nc_cat=107&ccb=1-7&_nc_sid=783fdb&_nc_ohc=ikjmpeREopkAX9s-id-&_nc_ht=scontent.fteq3-3.fna&oh=00_AfA28MdudWxtAn6eSooiZpnElF37sIqYwKxw-ORzsLFV-A&oe=65CED699"
+    }
+  ]
+}

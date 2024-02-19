@@ -1,0 +1,63 @@
+<div class="container">
+   <div class="firstSection">
+      <div class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" *ngFor="let header of headers()">
+            <img src="{{ header.img }}" class="d-block w-100" alt="{{ header.name }}">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="title">{{header.name}} </h1>
+                <div class="description" style="margin-bottom:8px;">
+                <span><i class="bi bi-check-circle-fill" style="color:#00acee;"></i> {{header.platform}}</span>
+                <span class="float-end" title="Her yaşa uygun değildir."> +{{header.rating}} </span>
+                </div>
+                <p class="opacity-75"> {{header.status}}</p>
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </div>
+   </div>     
+   <hr class="mt-2">
+<div class="sectionFirst">
+   <!--İzlemeye Devam Et-->
+   <div class="container continue-watching">
+       <h2>İzlemeye Devam Et</h2>
+       <div class="row">
+           <div class="col-md-3 keepwatch" (mouseover)="showProgress()" (mouseout)="hideProgress()">
+               <img
+                 src="https://i1.imgiz.com/rshots/10780/oppenheimer-2023-ilk-bakis_10780824-69300_640x360.jpg"
+                 alt="Movie 1"
+                 class="img-fluid"
+                 style="height: 150px; width: 300px;"
+               />
+               <div class="progress" role="progressbar" aria-label="Basic example" [attr.aria-valuenow]="progressValue" aria-valuemin="0" aria-valuemax="100">
+                 <div class="progress-bar" [style.width.%]="progressValue"></div>
+               </div>
+             </div>
+         <div class="col-md-3" (mouseover)="showProgress()" (mouseout)="hideProgress()">
+   </div>     
+<hr class="mt-2">
+ <app-movielists></app-movielists>
+  <hr class="mt-2">
+ <app-showlists></app-showlists>
+ 
+   
+
+
+
+
+</div>  

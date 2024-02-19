@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row">
+      <div class="col-3 mt-2">
+        <div class="sticky-poster">
+          <img src="{{Shows()?.ShowPoster}}" style="width:100%;">
+          <button class="btn btn-primary w-100"> İzle </button>
+        </div>
+      </div>
+      <div class="col-9">
+        <h1 class="card-title">{{Shows()?.ShowName}}</h1>
+        <div class="row mt-2">
+          <div class="col-4 mt-2">
+            <p class="fs-5"><strong>Çıkış Yılı:</strong> {{Shows()?.Year}}</p>
+          </div>
+          <div class="col-4 mt-2">
+            <p class="fs-5"><strong>Durumu:</strong> {{Shows()?.Status}}</p>
+          </div>
+          <div class="col-4 mt-2">
+            <p class="fs-5"><strong>Yönetmen:</strong> {{Shows()?.Creator}} </p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mt-2">
+                <p class="fs-5"><strong>Bölüm Süresi:</strong> {{Shows()?.RunTime}} </p>
+              </div>
+          <div class="col-4 mt-2">
+            <p class="fs-5"><strong>Toplam Süre:</strong> {{Shows()?.TotalRunTime}} </p>
+          </div>
+          <div class="col-4 mt-2">
+            <p class="fs-5"><strong>Stüdyo:</strong> {{Shows()?.Studios}} </p>
+          </div>
+          <div class="col-5 mt-2">
+            <p class="fs-5"><strong>Tür: </strong>{{ Shows()?.genres.join(', ') }}</p>
+          </div>
+        </div>
+        <div class="mt-4">
+          <p class="fs-5"><strong>Özet:</strong> {{Shows()?.Summary}}</p>
+          <p class="fs-5"><strong>Konusu:</strong> {{Shows()?.Description}}</p>
+        </div>
+            
+        <div class="row mt-4">
+          <p class="fs-4">Oyuncular</p>
+          <div class="card actor-card" *ngFor="let actor of Shows()?.Actors">
+            <img src="{{actor.img}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center actor-info">
+                <strong>{{ actor.ActorName }}</strong> <br/>{{ actor.role }}
+              </p>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+  </div>
+  

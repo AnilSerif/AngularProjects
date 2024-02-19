@@ -1,0 +1,98 @@
+@if(!showAlternateContent){
+<div class="container bg-body-tertiary mt-3 p-3">
+  <div
+    class="row"
+    style="display: flex; flex-wrap: wrap; justify-content: center"
+  >
+    <div
+      class="col-md-4 mb-3"
+      style="flex: 1"
+      *ngFor="let membership of memberships()"
+    >
+      <div
+        class="card"
+        style="
+          width: 18rem;
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+        "
+      >
+        <div class="card-header text-center" style=" background-color: rgb(252, 207, 149);">
+          {{ membership.name }}
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">{{ membership.description }}</li>
+          <li class="list-group-item">{{ membership.price }}</li>
+          <li class="list-group-item">{{ membership.options }}</li>
+        </ul>
+
+        <div class="card-footer col text-center" style=" background-color: rgb(252, 207, 149);">
+          <button class="btn-secondary btn" (click)="toggleContent()">
+            Seçiniz
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+}@else if (showAlternateContent){
+
+<div class="animate__animated animate__flipInY">
+  <form [formGroup]="userAddForm" (ngSubmit)="add()" class="form w-50 mt-5 container">
+    <h3 class="heading" style="color: rgb(201, 190, 175)">Kayıt Masası</h3>
+    
+    <input class="input" formControlName="name" placeholder="Adınız" type="text" />
+    <div class="alert alert-danger" *ngIf="userAddForm.get('name').hasError('required') && userAddForm.get('name').touched">Ad kısmı boş geçilemez!</div>
+    
+    <input class="input" formControlName="surname" placeholder="Soyadınız" type="text" />
+    <div class="alert alert-danger" *ngIf="userAddForm.get('surname').hasError('required') && userAddForm.get('surname').touched">Soyadı kısmı boş geçilemez!</div>
+    
+    <input class="input" formControlName="email" placeholder="E-mail" type="text" />
+    <div class="alert alert-danger" *ngIf="userAddForm.get('email').hasError('required') && userAddForm.get('email').touched">Email kısmı boş geçilemez</div>
+
+    <div class="row mt-3">
+      <div class="col-6">
+        <div class="form-label text-center">Kart Numaranız:</div>
+        <input
+          type="number"
+          formControlName="cardnumber"
+          placeholder="Kart Numaranız..."
+          class="form-control w-100"
+        />
+        <div class="alert alert-danger" *ngIf="userAddForm.get('cardnumber').hasError('required') && userAddForm.get('cardnumber').touched"> Kart numarası kısmı boş geçilemez...</div>
+        <div class="alert alert-danger" *ngIf="userAddForm.get('cardnumber').hasError('maxlength') && userAddForm.get('cardnumber').touched"> Kart numarası en az 11 haneli olmalıdır...</div>
+      </div>
+
+      <div class="col-6">
+        <div class="form-label text-center">CCV:</div>
+        <input
+          type="number"
+          formControlName="ccv"
+          placeholder="CCV"
+          class="form-control w-100"
+        />
+        <div class="alert alert-danger" *ngIf="userAddForm.get('ccv').hasError('required') && userAddForm.get('ccv').touched"> CCV kısmı boş geçilemez...</div>
+        <div class="alert alert-warning" *ngIf="userAddForm.get('ccv').hasError('minlength') && userAddForm.get('cardnumber').touched"> 3 Haneli CCV kısmını giriniz... </div>
+      </div>
+    </div>
+
+    <div class="mt-3">
+      <div class="form-label text-center">Parola:</div>
+      <input
+        type="password"
+        class="form-control w-100"
+        formControlName="password"
+        placeholder="Parola"
+      />
+      <div class="alert alert-danger" *ngIf="userAddForm.get('password').hasError('required') && userAddForm.get('password').touched">Parola kısmı eksik bırakılamaz...</div>
+      <div class="alert alert-warning" *ngIf="userAddForm.get('password').hasError('maxlength') && userAddForm.get('password').touched"> Eksik giriş yaptınız...</div>
+    </div>
+    
+    <button class="btn btn-primary w-100 mt-3" [disabled]="userAddForm.invalid">Kayıt Ol</button>
+         
+  </form>
+</div>
+}
+
+

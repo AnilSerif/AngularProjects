@@ -1,0 +1,73 @@
+<!--
+<div class="row">
+  <div class="card" style="width: 18rem;">
+    <img src="{{Movies()?.Poster}}" class="card-img-top" alt="ww">
+    <div class="card-body">
+      <h5 class="card-title"> {{Movies()?.MovieName}}</h5>
+      <p class="card-text">{{ Movies().Description.substring(0, 20) }}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{Movies()?.Year}}</li>
+      <li class="list-group-item"> <p><strong>Genres:</strong> {{ Movies().genres.join(', ') }}</p></li>
+      <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+        <li *ngFor="let actor of Movies().Actors">
+            <img [src]="actor.img" alt="{{ actor.ActorName }}" />
+            <p><strong>{{ actor.ActorName }}</strong> as {{ actor.role }}</p>
+          </li>
+    </div>
+  </div>
+</div>
+-->
+<div class="container">
+  <div class="row">
+    <div class="col-3 mt-2">
+      <div class="sticky-poster">
+        <img src="{{Movies()?.Poster}}" style="width:100%;">
+        <button class="btn btn-primary w-100"> İzle </button>
+      </div>
+    </div>
+    <div class="col-9">
+      <h1 class="card-title">{{Movies()?.MovieName}}</h1>
+      <div class="row mt-2">
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Çıkış Yılı:</strong> {{Movies()?.Year}}</p>
+        </div>
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Süresi:</strong> {{Movies()?.RunTime}}</p>
+        </div>
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Yönetmen:</strong> {{Movies()?.Director}} </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Yazar:</strong> {{Movies()?.Writers}} </p>
+        </div>
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Stüdyo:</strong> {{Movies()?.Studios}} </p>
+        </div>
+        <div class="col-4 mt-2">
+          <p class="fs-5"><strong>Tür: </strong>{{ Movies()?.genres.join(', ') }}</p>
+        </div>
+      </div>
+      <div class="mt-4">
+        <p class="fs-5"><strong>Özet:</strong> {{Movies()?.Summary}}</p>
+        <p class="fs-5"><strong>Konusu:</strong> {{Movies()?.Description}}</p>
+      </div>
+          
+      <div class="row mt-4">
+        <p class="fs-4">Oyuncular</p>
+        <div class="card actor-card" *ngFor="let actor of Movies()?.Actors">
+          <img src="{{actor.img}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center actor-info">
+              <strong>{{ actor.ActorName }}</strong> <br/>{{ actor.role }}
+            </p>
+          </div>
+        </div>
+      </div>     
+    </div>
+  </div>
+</div>

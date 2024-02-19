@@ -1,0 +1,28 @@
+<!---   
+<div class="container row" *ngIf="Movies().length"></div>
+  <div class="card" style="width: 18rem;" *ngFor="let movies of Movies()">
+    <img src="{{movies.Poster}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><a [routerLink]="[movies.MovieId]">{{movies.MovieName}}</a></h5>
+      <p class="card-text">{{movies.Year}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{movies.Description}}</li>
+    </ul>
+    <div class="card-body">
+      <a [routerLink]="['/movies', movies.MovieId]">Go to Movie Detail</a>
+    </div>
+  </div>
+-->
+<div class="secondSection">
+    <h2 style="text-decoration: underline;"> Popüler Filmler </h2>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4" space-between="10">
+        <swiper-slide class="wrapper" *ngFor="let movie of Movies()">
+            <div class="item">
+                <img src="{{movie.Poster}}" />
+                <div [routerLink]="['/movies',movie.MovieId]">{{movie.MovieId}}</div>
+              </div>
+        </swiper-slide>
+    </swiper-container>
+</div>  
+

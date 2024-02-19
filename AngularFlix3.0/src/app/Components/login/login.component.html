@@ -1,0 +1,6 @@
+<form [formGroup]="loginForm" (ngSubmit)="login()" class="form w-50 mt-5 mb-5 container">
+  <h3 class="heading" style="color:rgb(201, 190, 175)">Giriş Yap</h3>
+  <input class="input" placeholder="johnDoe@mail.com" type="text" formControlName="email">
+  <input type="password" class="input" placeholder="Password" formControlName="password" > 
+  <a class="btn" style="color:antiquewhite;" routerLink="/main">Giriş Yap</a>
+</form>

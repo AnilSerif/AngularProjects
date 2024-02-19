@@ -1,0 +1,21 @@
+export interface IMovie{
+    MovieId:number;
+    MovieName:string;
+    Year:number;
+    RunTime:string;
+    genres:string[];
+    Studios:string;
+    Director:string;
+    Writers:string;
+    Summary:string;
+    Description:string;
+    Poster:string;
+    Actors:[
+        {
+        id:number;
+        ActorName:string;
+        img:string;
+        role:string;
+        }
+    ]
+}
