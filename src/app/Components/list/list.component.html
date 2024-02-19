@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row mt-4">
+      <div *ngFor="let list of lists" class="card mb-3 m-3 shadow-lg bg-body-tertiary rounded" style="max-width: 500px;">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <swiper-container
+              class="mySwiper"
+              pagination="true"
+              effect="coverflow"
+              grab-cursor="true"
+              centered-slides="true"
+              slides-per-view="auto"
+              coverflow-effect-rotate="50"
+              coverflow-effect-stretch="0"
+              coverflow-effect-depth="100"
+              coverflow-effect-modifier="1"
+              coverflow-effect-slide-shadows="true"
+              loop="true"
+            >
+              <swiper-slide *ngFor="let image of list.imageUrl">
+                <img [src]="image" class="img-fluid rounded-start mt-2" alt="...">
+              </swiper-slide>
+            </swiper-container>
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">{{list.title}}</h5>
+              <small><img [src]="list.profile" class="profile-icon"> {{list.author}}</small>
+              <p class="card-text mt-2">{{list.description}}</p>
+              <p class="card-text"><small class="text-body-secondary">Son güncelleme: 3 dakika önce</small></p>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>

@@ -1,0 +1,113 @@
+swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+swiper-slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.email{
+  width:400px;
+  height:40px;
+  text-indent:10px;
+}
+
+.email:focus{
+  border-color: #007bff;
+    outline: none;
+    font-size:20px;
+}
+
+.sectionText{
+  position: relative;
+  text-align: center;
+  margin-top:10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section3 h5{
+  line-height:30px;
+  
+}
+
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionBox {
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  top: 0;
+  right: 0;
+  max-width: calc(100% - 420px);
+}
+
+.section5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .swiper-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .email,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7 {
+    width: 100%;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .email,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7 {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 993px) {
+  .email,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7 {
+    width: 100%;
+  }
+}
+

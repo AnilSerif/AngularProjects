@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand mb-1" href="#">AngularFlix</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/main-page" routerLinkActive="active">
+            <lord-icon
+              class="home"
+              src="https://cdn.lordicon.com/osuxyevn.json"
+              trigger="hover"
+              colors="primary:#121331"
+              style="width:25px;"
+              title="Ana Sayfa"
+            >
+            </lord-icon>
+          </a>
+        </li>
+        <li class="nav-item mt-1">
+          <a class="nav-link" routerLink="/guide" routerLinkActive="guide"> Rehber </a>
+        </li>
+        <li class="nav-item mt-1">
+          <a class="nav-link" routerLink="/list" routerLinkActive="list"> İzleme Listesi </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item mb-1">
+          <a  routerLink="login" class="nav-link active" aria-current="page" href="#">
+            <lord-icon
+              src="https://cdn.lordicon.com/bhfjfgqz.json"
+              trigger="hover"
+              colors="primary:#121331"
+              style="width:25px;"
+              title="Giriş Yap"
+            >
+            </lord-icon>
+          </a>
+        </li>
+        <li class="nav-item mb-1">
+          <a routerLink="register" class="nav-link">
+            <lord-icon 
+              src="https://cdn.lordicon.com/iiixgoqp.json"
+              trigger="hover"
+              colors="primary:#121331"
+              style="width: 25px;"
+              title="Kayıt Ol"
+            >
+            </lord-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

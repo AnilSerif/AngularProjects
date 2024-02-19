@@ -1,0 +1,74 @@
+{
+    "Sliders":
+    [
+      {"id":1,"imageUrl":"https://image.tmdb.org/t/p/original/u5kboZR4OMi4QdbOhawCZuzMVWJ.jpg"},
+      {"id":2,"imageUrl":"https://image.tmdb.org/t/p/original/oupWWrVuCgNEa5GcjdkpjCYbx2X.jpg"},
+      {"id":3,"imageUrl":"https://www.themoviedb.org/t/p/original/dMIfRXSzxrsXdO0n6O8lMN79KKD.jpg"},		
+      {"id":4,"imageUrl":"https://image.tmdb.org/t/p/original/bYDwKJrIPjgANXNXUkF7ssSESsD.jpg"}	
+    ],
+    "Lists":
+   [
+    {
+     "id":1,
+     "title":"2023 Trend Filmleri",
+     "profile":"https://cdn.iconscout.com/icon/premium/png-128-thumb/member-5636107-4759737.png",
+     "description":"",
+     "author":"Spartacus",
+     "imageUrl":[
+                 "https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+                 "https://image.tmdb.org/t/p/original/bYDwKJrIPjgANXNXUkF7ssSESsD.jpg",
+                 "https://image.tmdb.org/t/p/original/bYDwKJrIPjgANXNXUkF7ssSESsD.jpg",
+                 "https://image.tmdb.org/t/p/original/bYDwKJrIPjgANXNXUkF7ssSESsD.jpg"
+                ]  
+    },
+    {
+      "id":2,
+      "title":"Görevimiz Tehlike İzleme Sırası",
+      "profile":"https://cdn.iconscout.com/icon/premium/png-128-thumb/member-5636107-4759737.png",
+      "description":"Görevimiz Tehlike İmkansız, popüler televizyon dizisine dayanan bir dizi gizli ajan gerilim filmidir. Filmlerde, ajan Ethan Hunt'ın liderliğinde İmkansız Görevler Gücü (IMF) olarak bilinen gizli hükümet ajanlarından oluşan bir ekibin görevleri anlatılmaktadır.",
+      "author":"Agent",
+      "imageUrl":[
+                  "https://walter.trakt.tv/images/movies/000/000/793/posters/thumb/4830a427c5.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/000/794/posters/thumb/e920a166f0.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/000/795/posters/thumb/7b4c564818.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/040/108/posters/thumb/a9fc12d9c8.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/112/447/posters/thumb/c14339a4fc.jpg.webp"
+                ]  
+    },
+    {
+      "id":3,
+      "title":"2023 Yılında İzlediklerim",
+      "profile":"https://cdn.iconscout.com/icon/premium/png-128-thumb/member-5636107-4759737.png",
+      "description":"2023'te izleyebileceğim yeni diziler ve sezonlar.",
+      "author":"Gargara",
+      "imageUrl":[
+                  "https://walter.trakt.tv/images/shows/000/196/842/posters/thumb/06a3afcc37.jpg.webp",
+                  "https://walter.trakt.tv/images/shows/000/170/559/posters/thumb/34f3c0e47f.jpg.webp",
+                  "https://walter.trakt.tv/images/shows/000/146/535/posters/thumb/c0ab89fe80.jpg.webp",
+                  "https://walter.trakt.tv/images/shows/000/152/252/posters/thumb/d5ed9db981.jpg.webp",
+                  "https://walter.trakt.tv/images/shows/000/173/996/posters/thumb/f498a2fa2b.jpg.webp"
+                ]  
+    },
+    {
+      "id":4,
+      "title":"Apokaliptik ve Distopik Filmler",
+      "profile":"https://cdn.iconscout.com/icon/premium/png-128-thumb/member-5636107-4759737.png",
+      "description":"",
+      "author":"Freddy",
+      "imageUrl":[
+                  "https://walter.trakt.tv/images/movies/000/471/824/posters/thumb/a2b3187c9b.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/012/752/posters/thumb/838096a4bd.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/000/048/posters/thumb/2f98dfeefe.jpg.webp",
+                  "https://walter.trakt.tv/images/movies/000/370/561/posters/thumb/b8b2683999.jpg.webp"
+                ]  
+    }
+   ],
+ 
+   "Guides":[
+    {"id":1, "title":"Gen V İzlemeden Önce Bilinmesi Gerekenler","description":"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.....","imageUrl":"https://walter.trakt.tv/images/shows/000/196/842/fanarts/thumb/4c9725b2c5.jpg.webp"},
+    {"id":2,"title":"Dijital Platformlardan İzlemeniz Gerekenler","description":"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum....","imageUrl":"https://walter.trakt.tv/images/shows/000/150/469/fanarts/thumb/22459063b4.jpg.webp"},
+    {"id":3,"title":"Ahsoka Öncesi Bilinmesi Gerekenler","description":"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum....","imageUrl":"https://walter.trakt.tv/images/shows/000/170/559/fanarts/thumb/e2db39e7b4.jpg.webp"},
+    {"id":4,"title":"Harry Potter Yeniden Vizyona Geliyor","description":"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum....","imageUrl":"https://walter.trakt.tv/images/movies/000/000/545/fanarts/thumb/34a34a8093.jpg.webp"}   
+   ]
+           
+}

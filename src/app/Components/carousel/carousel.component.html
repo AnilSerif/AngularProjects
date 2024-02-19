@@ -1,0 +1,210 @@
+<div class="container">
+<swiper-container  
+class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" loop="true">
+<swiper-slide *ngFor="let slider of sliders">
+       <img [src]="slider.imageUrl" alt="Slider Image">
+    </swiper-slide>
+</swiper-container>
+</div>
+   
+  <div class="container">
+    <div class="section2 d-flex justify-content-center w-100 mt-5">
+        <div class="sectionText">
+        <h2> Âlâsı var!</h2>
+        <h5>En iyi dizi, film, belgesel ve çok daha fazlası burada.</h5>
+        <h6> İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek. </h6>
+        <form class="row g-2 mt-2 w-100 justify-content-center">
+            <div class="col-auto">
+              <div class="visually-hidden"> Email </div>
+              <input type="email" class="email" id="inputemail" placeholder="E-mail">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3" (click)="RegisterPage()"> Kayıt Ol </button>
+            </div>
+         </form>
+        </div>
+    </div>
+   </div>
+
+<!--Section3-->   
+   <div class="container">
+    <div class="section3 d-flex justify-content-center w-100 mt-5">
+      <div class="sectionText d-flex justify-content-between align-items-center w-100">
+        <div class="float-start justify-content-start">
+          <h4 class="fw-bold"> Televizyonunuzda izleyin</h4>
+          <h5> Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</h5>
+        </div>
+        <div class="float-end"> 
+          <lord-icon
+            src="https://cdn.lordicon.com/qyycjtsf.json"
+            trigger="hover"
+            colors="primary:#ebe6ef,secondary:#f24c00,tertiary:#4bb3fd,quaternary:#3a3347,quinary:#ffc738,senary:#646e78"
+            style="width:550px;height:300px">
+          </lord-icon>
+        </div>
+      </div>
+    </div>
+   </div>
+<!--Section3-->
+
+<!--Section4-->
+   <div class="container">
+    <div class="section4 d-flex justify-content-center w-100 mt-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="float-start justify-content-start">
+          <img src="assets/img/offline.jpg" style="max-width: 420px; height: auto;">
+        </div>
+        <div class="float-end sectionBox">
+          <h4 class="fw-bold text-center">Çevrimdışı izlemek için içerikleri indirin</h4>
+          <h5>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek şeyleriniz olsun.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Section4-->  
+
+
+    <!--Section 5 -->
+    <div class="container">
+     <div class="section5 d-flex justify-content-center w-100 mt-5">
+        <div class=" d-flex justify-content-between align-items-center w-100">
+          <div class="float-start justify-content-start">
+            <h4 class="fw-bold text-center"> İstediğiniz her yerde izleyin </h4>
+            <h5 class="text-center"> Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin. </h5>
+          </div>
+          <div class="float-end sectionBox">
+            <img src="assets/img/download.jpg"  style="max-width: 420px; height: auto;">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <!--Section5-->
+
+    <!--Section6-->
+    <div class="container">
+    <div class="section6 d-flex justify-content-center w-100 mt-5">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="float-start justify-content-start">
+            <img src="assets/img/family.jpg" style="max-width: 420px; height: auto;">
+         </div>
+         <div class="float-end sectionBox">  
+          <h4 class="fw-bold text-center"> Çocuklarınız için profiller oluşturun </h4>
+          <h5> Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir. </h5>
+         </div>
+        </div>
+    </div>
+    </div>
+    <!--Section6-->
+
+
+
+  <div class="section7 justify-content-center w-100 mt-5">
+        <div class="sectionText">
+          <div class="sectionText">
+            <h4 class="mt-3">Sıkça Sorulan Sorular</h4>
+            <div class="accordion" id="accordionFlushExample">
+              <!-- Soru 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                    AngularFlix nedir?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    AngularFlix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir streaming hizmetidir.
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Soru 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    AngularFlix'in maliyeti nedir?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    AngularFlix akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 99,99 TL ile 199,99 TL arasında değişmektedir. Ekstra maliyet yok, sözleşme yok.
+                  </div>
+                </div>
+              </div>
+        
+              <!--Soru 3-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Nerede İzleyebilirim? 
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda AngularFlix.com adresinden veya akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil AngularFlix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için AngularFlix hesabınızla oturum açın.
+                     Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. AngularFlix'i her yere beraberinizde götürün.
+                  </div>
+                </div>
+              </div>
+
+              <!--Soru 4-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Nasıl iptal ederim?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    AngularFlix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman başlatın veya durdurun.
+                  </div>
+                </div>
+              </div>
+
+              <!--Soru 5-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    AngularFlix'te ne izleyebilirim?
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    AngularFlix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü AngularFlix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.
+                  </div>
+                </div>
+              </div> 
+
+              <!--Soru 6-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    AngularFlix çocuklar için uygun mudur?
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">                 
+                    Üyeliğinize dâhil olan AngularFlix Çocuk deneyimi, çocukların ailece izlenebilecek dizi ve filmleri kendilerine özel bir alanda izlemelerini sağlarken kontrolü ebeveynlere verir
+                    Çocuk profillerinde bulunan PIN korumalı ebeveyn kontrolleri sayesinde, çocukların izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve onların görmesini istemediğiniz belirli içerikleri engelleyebilirsiniz.
+                  </div>
+                </div>
+              </div> 
+
+            </div>
+          </div>
+        </div>
+
+
+        <h6 class="text-center mt-5"> İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek. </h6>
+        <form class="row g-2 mt-3 w-100 justify-content-center">
+            <div class="col-auto">
+              <div class="visually-hidden"> Email </div>
+              <input type="email" class="email" id="inputemail" placeholder="E-mail">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3" (click)="RegisterPage()"> Kayıt Ol </button>
+            </div>
+         </form>
+
+ </div>
